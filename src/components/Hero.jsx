@@ -30,15 +30,15 @@ export const Hero = () => {
         initial="hidden"
         whileInView={'show'}
         viewport={{ once: false, amount: 0.7 }}
-        className="absolute flex top-[10%] ">
+        className="absolute flex top-[20%] ">
         <div className="flex flex-col pt-20 px-10">
-          <p className='font-altbold text-5xl xl:text-7xl text-[#8bcbef]'>
+          <p className='font-altbold text-5xl xl:text-6xl text-[#8bcbef]'>
                         TECNOLOGÍA
           </p>
-          <p className='font-altbold text-6xl xl:text-8xl text-black'>
+          <p className='font-altbold text-6xl xl:text-7xl text-black'>
                         de ANÁLISIS
           </p>
-          <p className='font-altbold text-6xl xl:text-8xl text-black'>
+          <p className='font-altbold text-6xl xl:text-7xl text-black'>
                         y MEDICIÓN
           </p>
         </div>
@@ -50,13 +50,13 @@ export const Hero = () => {
         viewport={{ once: false, amount: 0.7 }}
         className="absolute flex top-[45%] left-[50%] pl-[100px] lg:pl-[300px] mr-10">
         <div className="hidden md:flex flex-col items-end">
-          <p className='font-rubik text-md xl:text-xl text-black'>
+          <p className='font-rubik text-md xl:text-lg text-black'>
                         Somos expertos en servicios analíticos con tecnologías de última generación que nos permiten brindar soluciones de la más alta calidad.
           </p>
           <div className="flex flex-wrap gap-x-2 gap-y-2 mt-5">
             {
               logos.map(logo => (
-                <div key={logo.id} className="w-[35px] h-[35px] xl:w-[55px] xl:h-[55px] border-2 border-[#8bcbef] bg-white rounded-full overflow-hidden">
+                <div key={logo.id} className="w-[35px] h-[35px] xl:w-[48px] xl:h-[48px] border-2 border-[#8bcbef] bg-white rounded-full overflow-hidden">
                   <Tilt tiltMaxAngleX={5.5} tiltMaxAngleY={5.5} glareEnable={true} glareMaxOpacity={0.15} glareColor={'black'} >
                     <img src={logo.img} className='w-full h-full' />
                   </Tilt>

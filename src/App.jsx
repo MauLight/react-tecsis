@@ -1,3 +1,4 @@
+import { About } from './components/About'
 import { Carrousel } from './components/Carrousel'
 import { Contact } from './components/Contact'
 import { Hero } from './components/Hero'
@@ -15,6 +16,7 @@ function App() {
       <Nav />
       <Carrousel />
       <Products />
+      <About />
       <Contact />
     </div>
   )
